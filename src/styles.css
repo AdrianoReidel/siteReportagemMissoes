@@ -1,0 +1,343 @@
+.olho {
+  font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+}
+
+.title {
+  font-family: 'Marcellus SC', serif;
+  font-weight: 500; 
+  text-align: left;
+  font-size: 7vw;
+  display: block;
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 90%;
+  padding-top: 15px;
+}
+
+.names h2 {
+  font-size: 2.5vw;
+  text-align: left;
+  font-style: italic;
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
+  display: block;
+    max-width: 95%;
+}
+
+.subtitle {
+  font-size: 6vw;
+  text-align: left;
+  font-family: 'Marcellus SC', serif;
+  font-weight: 500;
+  display: block;
+  max-width: 90%;
+  padding-top: 10px;
+  text-align: justify;
+  margin: 0 auto;
+}
+.intertitle {
+  font-size: 5vw;
+  text-align: left;
+  font-family: 'Marcellus SC', serif;
+  font-weight: 500;
+  display: block;
+  max-width: 90%;
+  padding-top: 10px;
+  padding-left: 50px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.span {
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
+  padding-top: 5px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+}  
+
+  .centered-content {
+    display: block;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 90%;
+}
+  
+  .main {
+    margin-top: 20px;
+  }
+
+  .main span {
+    font-size: 3vw;
+    display: block;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 90%;
+    line-height: 1.5;
+  }
+
+  .destaque {
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-weight: 600;
+    font-size: 4.5vw;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    max-width: 50%;
+    text-align: center;
+  }
+  .destaqueApos {
+    max-width: 2%;
+    text-align: center;
+  }
+  
+  .main span.legendaFoto {
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 2vw;
+    display: block;
+    text-align: right;
+    margin-left: auto; 
+    margin-right: 7%;
+    max-width: 40%; 
+    line-height: 1.5;
+}
+
+.main span.legendaFotoInteira {
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
+  font-size: 2vw;
+  display: block;
+  text-align: right;
+  margin-left: auto; 
+  margin-right: 5%;
+  line-height: 1.5;
+}
+.main span.legendaFotoEsquerda {
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
+  font-size: 2vw;
+  display: block;
+  text-align: left;
+  margin-left: 5%; 
+  margin-right: auto;
+  max-width: 40%; 
+  line-height: 1.5;
+}
+.spanImagesComTextoInicio {
+  display: flex; 
+  align-items: flex-start;
+  gap: 10px; 
+  margin-bottom: 20px; 
+  padding-top: 5px; 
+  margin: 0 auto; 
+  max-width: 90%; 
+}
+  .spanImagesComTexto {
+    display: flex; 
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 20px; 
+    padding-top: 5px; 
+    margin: 0 auto; 
+    max-width: 90%; 
+  }
+  
+  .imagesComTexto {
+    width: 40%; 
+    height: auto; 
+    max-width: 70%;
+    margin: 10px;
+  }
+
+  .spanText {
+    width: 55%; 
+    line-height: 1.5; 
+    text-align: justify;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    flex: 1;
+  }
+
+  .spanImages {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+  .images {
+    max-width: 90%;
+    height: auto;
+    margin: 10px;
+  }
+  .imagemGrande {
+    max-width: 45%;
+    height: auto;
+    margin: 10px;
+  }
+
+  .youtube-video {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 205px;
+  }
+
+  .main span.legendaVideo{
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 2.5vw;
+    display: block;
+    text-align: left;
+    padding-bottom: 25px;
+  }
+
+  .circleIcon {
+    margin-right: 8px;
+    color: #000000;
+    font-size: 1.4vw;
+  }
+  .spanItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .espacoTitulos {
+    margin-top: 50px;
+  }
+  .espaco {
+    margin-bottom: 58px;
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 3.2vw; 
+      max-width: 65%;
+    }
+    .names h2 {
+      font-size: 1.5vw;
+      max-width: 72%;
+      margin: 0 auto;
+    }
+  
+    .subtitle {
+      font-size: 2.4vw;
+      max-width: 72%;
+      margin: 0 auto;
+      display: block;
+      text-align: justify;
+      max-width: 65%;
+    }
+    .intertitle {
+      font-size: 2vw;
+      max-width: 72%;
+      display: block;
+      text-align: justify;
+      margin: 0 auto;
+      max-width: 65%;
+      padding-left: 100px;
+    }
+  
+    .main span {
+      font-size: 1.3vw;
+      max-width: 65%;
+      line-height: 1.5;
+    }
+    .destaque {
+      font-family: 'Frank Ruhl Libre', sans-serif;
+      font-weight: 600;
+      font-size: 2.5vw;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      max-width: 50%;
+      text-align: center;
+    }
+    .destaqueApos {
+      max-width: 2%;
+      text-align: center;
+    }
+    .spanImages {
+      display: flex;
+    }
+
+    .images {
+      max-width: 65%;
+    }
+    .imagemGrande {
+      max-width: 32.5%;
+      height: auto;
+      margin: 10px;
+    }
+
+    .centered-content {
+      display: block;
+      text-align: justify;
+      margin: 0 auto;
+      max-width: 90%;
+    }
+  
+    .spanImagesComTexto {
+      max-width: 65%; 
+    }
+    .spanImagesComTextoInicio {
+      align-items: flex-start;
+      max-width: 65%; 
+    }
+    .youtube-video {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    iframe {
+      width: 100%;
+      max-width: 65%;
+      height: 500px;
+    }
+
+    .main span.legendaFoto {
+      max-width: 28%;
+      font-size: 1vw;
+      margin-left: auto; 
+      margin-right: 18.5%;
+  }
+  .main span.legendaFotoInteira {
+    font-size: 1vw;
+    margin-left: auto; 
+    margin-right: 17.5%;
+}
+  .main span.legendaFotoEsquerda {
+    max-width: 28%;
+    font-size: 1vw;
+    margin-left: 1%; 
+    margin-right: auto;
+}
+.circleIcon {
+  font-size: 0.5vw;
+}
+.espacoTitulos {
+  margin-top: 50px;
+}
+.main span.legendaVideo{
+  font-family: 'EB Garamond', serif;
+  font-weight: 300;
+  font-size: 1vw;
+  display: block;
+  text-align: left;
+  padding-bottom: 25px;
+}
+  }
+  
